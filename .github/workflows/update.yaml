@@ -1,0 +1,32 @@
+name: update-readme
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 11 * * *'
+
+env:
+  RSS_FEEDS: https://victoria.dev/blog/index.xml
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🍽️ Get working copy
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🍳 Shake & bake README
+        run: |
+          cd ${GITHUB_WORKSPACE}/update/
+          go run main.go
+      - name: 🚀 Deploy
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -am "Update dynamic content"
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
