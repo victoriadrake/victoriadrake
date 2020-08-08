@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
+	"math/rand"
 	"os"
 	"time"
 
@@ -18,22 +18,27 @@ func makeReadme(filename string) error {
 		log.Fatalf("error getting feed: %v", err)
 	}
 	// Get the freshest item
-	rssItem := feed.Items[0]
+	blogItem := feed.Items[0]
 
-	// Unwrap Markdown content
-	content, err := ioutil.ReadFile("static.md")
+	wc, err := fp.ParseURL("https://victoria.dev/wc/index.xml")
 	if err != nil {
-		log.Fatalf("cannot read file: %v", err)
-		return err
+		log.Fatalf("error getting feed: %v", err)
 	}
-	stringyContent := string(content)
+	// Add this much magic
+	wcItem := wc.Items[0]
 
+	rand.Seed(time.Now().UnixNano())
+	whoList := []string{"🦄", "🐣", "🦊", "🦔", "🦡", "🐹", "🐷", "🌮", "🍝", "🥑", "💩"}
+	who := rand.Intn(len(whoList))
+	whatList := []string{"👍", "🎉", "💕", "🤷", "👏", "🙌"}
+	what := rand.Intn(len(whatList))
 	date := time.Now().Format("2 Jan 2006")
 
 	// Whisk together static and dynamic content until stiff peaks form
-	blog := "- ✨ Read my latest blog post: **[" + rssItem.Title + "](" + rssItem.Link + ")**"
+	hello := "### Hello! I’m Victoria Drake. 👋\n\nI’m a software developer at 💜 and Director of Engineering at work. I share open source knowledge through the " + wcItem.Description + " words I’ve written on [victoria.dev](https://victoria.dev). I build my skill stack in public in the hopes I will encourage people to learn openly and fearlessly, with wild childlike abandon.\n\nI spent summers as a kid hacking Neopets and coding a medieval multiplayer role play world through a teeny tiny terminal window. Sometime before that, I wrote mystery novels and lived a secret life as a super sleuth.\n\n- See my :octocat: **[GitHub Action cybersecurity tools](https://github.com/search?q=user%3Avictoriadrake+GitHub+Action+security)**"
+	blog := "- This " + whoList[who] + " says they " + whatList[what] + " my latest blog post: **[" + blogItem.Title + "](" + blogItem.Link + ")**"
 	updated := "Last updated by magic on " + date + "."
-	data := fmt.Sprintf("%s%s\n\n%s\n", stringyContent, blog, updated)
+	data := fmt.Sprintf("%s\n%s\n\n%s\n", hello, blog, updated)
 
 	// Prepare file with a light coating of os
 	file, err := os.Create(filename)
