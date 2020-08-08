@@ -1,4 +1,4 @@
-name: update-readme
+name: update
 
 on:
   push:
@@ -6,9 +6,6 @@ on:
       - master
   schedule:
     - cron: '0 11 * * *'
-
-env:
-  RSS_FEEDS: https://victoria.dev/blog/index.xml
 
 jobs:
   build-and-deploy:

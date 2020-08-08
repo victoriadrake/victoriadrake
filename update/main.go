@@ -1,32 +1,15 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 	"os"
-	"strings"
 	"time"
 
 	"github.com/mmcdole/gofeed"
 )
-
-func getenv(name string) (string, error) {
-	v := os.Getenv(name)
-	if v == "" {
-		return v, errors.New("no environment variable: " + name)
-	}
-	return v, nil
-}
-
-func getRSS(rssFeed string) ([]string, error) {
-	if rssFeed == "" {
-		return []string{""}, errors.New("no feeds present")
-	}
-	return strings.Split(rssFeed, ";"), nil
-}
 
 func makeReadme(filename string) error {
 	fp := gofeed.NewParser()
