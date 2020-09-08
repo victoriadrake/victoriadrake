@@ -5,6 +5,6 @@ I’m a software developer at 💜 and Director of Engineering at work. I build 
 I spent summers as a kid hacking Neopets and coding a medieval multiplayer role play world through a teeny tiny terminal window. Sometime before that, I wrote mystery novels and lived a secret life as a super sleuth.
 
 - See my :octocat: **[GitHub Action cybersecurity tools](https://github.com/search?q=user%3Avictoriadrake+GitHub+Action+security)**
-- This 🐷 says they 👏 my latest blog post: **[What is TLS? Transport Layer Security encryption explained in plain english](https://victoria.dev/blog/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/)**
+- This 🐣 says they 🎉 my latest blog post: **[What is TLS? Transport Layer Security encryption explained in plain english](https://victoria.dev/blog/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/)**
 
-Last updated by magic on 7 Sep 2020.
+Last updated by magic on 8 Sep 2020.
