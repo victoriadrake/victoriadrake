@@ -4,4 +4,4 @@ I’m a software developer at 💜 and Director of Engineering at work. I build 
 
 This 🦔 says they 👏 my latest blog post: **[Digital resilience: redundancy for websites and communications](https://victoria.dev/blog/digital-resilience-redundancy-for-websites-and-communications/)**. If you agree, you can subscribe to my [📡 **blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 25 Feb 2021.</sub>
+<sub>Last updated by magic on 26 Feb 2021.</sub>
