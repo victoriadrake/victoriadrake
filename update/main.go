@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"math/rand"
 	"os"
 	"time"
 
@@ -27,16 +26,11 @@ func makeReadme(filename string) error {
 	// Add this much magic
 	wcItem := wc.Items[0]
 
-	rand.Seed(time.Now().UnixNano())
-	whoList := []string{"🦄", "🐣", "🦊", "🦔", "🦡", "🐹", "🐷", "🌮", "🍝", "🥑", "💩"}
-	who := rand.Intn(len(whoList))
-	whatList := []string{"👍", "🎉", "💕", "🤷", "👏", "🙌"}
-	what := rand.Intn(len(whatList))
 	date := time.Now().Format("2 Jan 2006")
 
 	// Whisk together static and dynamic content until stiff peaks form
-	hello := "### Hello! I’m Victoria Drake. 👋\n\nI’m a software developer at 💜 and Director of Engineering at work. I build my skill stack in public and share open source knowledge through the " + wcItem.Description + " words I’ve written on [victoria.dev](https://victoria.dev). I hope to encourage people to learn openly and fearlessly, with wild child-like abandon."
-	blog := "This " + whoList[who] + " says they " + whatList[what] + " my latest blog post: **[" + blogItem.Title + "](" + blogItem.Link + ")**. If you agree, you can subscribe to my [📡 **blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev)."
+	hello := "### Hello! I’m Victoria Drake.\n\nI lead software development teams in the cybersecurity industry and still enjoy getting hands-on with code in the open source world. I build my skill stack in public through the " + wcItem.Description + " words I’ve written on [victoria.dev](https://victoria.dev). I hope to empower people to learn openly and fearlessly through knowledge sharing and technology leadership."
+	blog := "You might like my latest blog post: **[" + blogItem.Title + "](" + blogItem.Link + ")**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev)."
 	updated := "<sub>Last updated by magic on " + date + ".</sub>"
 	data := fmt.Sprintf("%s\n\n%s\n\n%s\n", hello, blog, updated)
 
