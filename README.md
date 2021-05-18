@@ -1,7 +1,7 @@
-### Hello! I’m Victoria Drake. 👋
+### Hello! I’m Victoria Drake.
 
-I’m a software developer at 💜 and Director of Engineering at work. I build my skill stack in public and share open source knowledge through the 122345 words I’ve written on [victoria.dev](https://victoria.dev). I hope to encourage people to learn openly and fearlessly, with wild child-like abandon.
+I lead software development teams in the cybersecurity industry and still enjoy getting hands-on with code in the open source world. I build my skill stack in public through the 122263 words I’ve written on [victoria.dev](https://victoria.dev). I hope to empower people to learn openly and fearlessly through knowledge sharing and technology leadership.
 
-This 💩 says they 🤷 my latest blog post: **[Digital resilience: redundancy for websites and communications](https://victoria.dev/blog/digital-resilience-redundancy-for-websites-and-communications/)**. If you agree, you can subscribe to my [📡 **blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
+You might like my latest blog post: **[Digital resilience: redundancy for websites and communications](https://victoria.dev/blog/digital-resilience-redundancy-for-websites-and-communications/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 17 May 2021.</sub>
+<sub>Last updated by magic on 18 May 2021.</sub>
