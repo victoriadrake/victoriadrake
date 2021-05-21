@@ -4,4 +4,4 @@ I lead software development teams in the cybersecurity industry and still enjoy 
 
 You might like my latest blog post: **[Digital resilience: redundancy for websites and communications](https://victoria.dev/blog/digital-resilience-redundancy-for-websites-and-communications/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 20 May 2021.</sub>
+<sub>Last updated by magic on 21 May 2021.</sub>
