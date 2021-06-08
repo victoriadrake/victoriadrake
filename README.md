@@ -4,4 +4,4 @@ I lead software development teams in the cybersecurity industry and still enjoy 
 
 You might like my latest blog post: **[A GitHub guide for non-technical leaders](https://victoria.dev/blog/a-github-guide-for-non-technical-leaders/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 7 Jun 2021.</sub>
+<sub>Last updated by magic on 8 Jun 2021.</sub>
