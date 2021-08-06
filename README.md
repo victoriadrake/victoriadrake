@@ -4,4 +4,4 @@ I lead software development teams in the cybersecurity industry and still enjoy 
 
 You might like my latest blog post: **[Leading with a cybersecurity mindset](https://victoria.dev/blog/leading-with-a-cybersecurity-mindset/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 5 Aug 2021.</sub>
+<sub>Last updated by magic on 6 Aug 2021.</sub>
