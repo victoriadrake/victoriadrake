@@ -4,4 +4,4 @@ I lead software development teams in the cybersecurity industry and still enjoy 
 
 You might like my latest blog post: **[Building in context](https://victoria.dev/blog/building-in-context/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 11 Aug 2021.</sub>
+<sub>Last updated by magic on 12 Aug 2021.</sub>
