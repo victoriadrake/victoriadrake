@@ -4,4 +4,4 @@ I lead software development teams in the cybersecurity industry and build open s
 
 You might like my latest blog post: **[The What phone should I get? post](https://victoria.dev/blog/the-what-phone-should-i-get-post/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 21 Aug 2021.</sub>
+<sub>Last updated by magic on 22 Aug 2021.</sub>
