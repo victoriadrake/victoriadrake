@@ -4,4 +4,4 @@ I love to build open source projects and learn and teach in public through the 1
 
 You might like my latest blog post: **[Introducing The Tech Leader Docs](https://victoria.dev/blog/introducing-the-tech-leader-docs/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 20 Jan 2022.</sub>
+<sub>Last updated by magic on 21 Jan 2022.</sub>
