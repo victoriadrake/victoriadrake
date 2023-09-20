@@ -1,7 +1,7 @@
 ### Hello! I’m Victoria Drake.
 
-I love to build open source projects and learn and teach in public through the 114450 words I’ve written on [victoria.dev](https://victoria.dev).
+I love to build open source projects and learn and teach in public through the 115980 words I’ve written on [victoria.dev](https://victoria.dev).
 
-You might like my latest blog post: **[Git branching for small teams](https://victoria.dev/blog/git-branching-for-small-teams/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
+You might like my latest blog post: **[Optimizing text for ChatGPT: NLP and text pre-processing techniques](https://victoria.dev/blog/optimizing-text-for-chatgpt-nlp-and-text-pre-processing-techniques/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 19 Sep 2023.</sub>
+<sub>Last updated by magic on 20 Sep 2023.</sub>
