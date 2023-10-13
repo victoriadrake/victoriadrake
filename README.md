@@ -4,4 +4,4 @@ I love to build open source projects and learn and teach in public through the 1
 
 You might like my latest blog post: **[How to send long text input to ChatGPT using the OpenAI API](https://victoria.dev/blog/how-to-send-long-text-input-to-chatgpt-using-the-openai-api/)**. You can subscribe to my [**blog RSS**](https://victoria.dev/index.xml) or by email at [**victoria.dev**](https://victoria.dev).
 
-<sub>Last updated by magic on 12 Oct 2023.</sub>
+<sub>Last updated by magic on 13 Oct 2023.</sub>
